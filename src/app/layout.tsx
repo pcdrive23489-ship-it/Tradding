@@ -1,5 +1,5 @@
 
-import type {Metadata} from 'next';
+import type { Metadata } from 'next';
 import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
 import { TradesProvider } from '@/context/trade-provider';
@@ -30,7 +30,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <TradesProvider>
-              {children}
+            {children}
           </TradesProvider>
           <Toaster />
         </ThemeProvider>

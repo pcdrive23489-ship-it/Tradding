@@ -1,5 +1,5 @@
 
-"use client";
+"use client"
 
 import * as React from "react";
 import type { Trade } from "@/lib/types";
